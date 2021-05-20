@@ -6,7 +6,7 @@ defmodule :"Elixir.Discuss.Repo.Migrations.Add-topics" do
 
 
   def change do
-    drop_if_exists("topics")
+
     create table(:topics) do
       add :title, :string
     end
